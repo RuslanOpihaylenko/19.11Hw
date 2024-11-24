@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+C:\Users\rysya\Desktop\19.11HW\19.11HW\FileName.cpp(19,17): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  19.11HW.vcxproj -> C:\Users\rysya\Desktop\19.11HW\x64\Debug\19.11HW.exe
