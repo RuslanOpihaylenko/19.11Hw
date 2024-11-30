@@ -1,3 +1,17 @@
-﻿  FileName.cpp
-C:\Users\rysya\Desktop\19.11HW\19.11HW\FileName.cpp(19,17): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-  19.11HW.vcxproj -> C:\Users\rysya\Desktop\19.11HW\x64\Debug\19.11HW.exe
+﻿  Main.cpp
+C:\Users\rysya\Desktop\19.11HW\19.11HW\String.cpp(31,16): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Main.cpp")
+  
+  String.cpp
+C:\Users\rysya\Desktop\19.11HW\19.11HW\String.cpp(31,16): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+String.obj : error LNK2005: "public: __cdecl String::String(class String const &)" (??0String@@QEAA@AEBV0@@Z) ??? ????????? ? Main.obj
+String.obj : error LNK2005: "public: __cdecl String::String(char *,int)" (??0String@@QEAA@PEADH@Z) ??? ????????? ? Main.obj
+String.obj : error LNK2005: "public: __cdecl String::String(void)" (??0String@@QEAA@XZ) ??? ????????? ? Main.obj
+String.obj : error LNK2005: "public: __cdecl String::~String(void)" (??1String@@QEAA@XZ) ??? ????????? ? Main.obj
+String.obj : error LNK2005: "public: static int __cdecl String::getCounterObject(void)" (?getCounterObject@String@@SAHXZ) ??? ????????? ? Main.obj
+String.obj : error LNK2005: "public: int __cdecl String::getSize(void)" (?getSize@String@@QEAAHXZ) ??? ????????? ? Main.obj
+String.obj : error LNK2005: "public: char * __cdecl String::getStr(void)" (?getStr@String@@QEAAPEADXZ) ??? ????????? ? Main.obj
+String.obj : error LNK2005: "public: void __cdecl String::setStr(char const *)" (?setStr@String@@QEAAXPEBD@Z) ??? ????????? ? Main.obj
+String.obj : error LNK2005: "private: static int String::counterObject" (?counterObject@String@@0HA) ??? ????????? ? Main.obj
+C:\Users\rysya\Desktop\19.11HW\x64\Debug\19.11HW.exe : fatal error LNK1169: ????????? ??????????? ???????????? ?????? - ???? ??? ?????
