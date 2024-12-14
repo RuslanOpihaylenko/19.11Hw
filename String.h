@@ -12,6 +12,9 @@ public:
 	int getSize();
 	char* getStr();
 	static int getCounterObject();
+	int MyStrLen();
+	int MyChr(char c);
+	void MyDelChr(char c);
 	~String();
 };
 

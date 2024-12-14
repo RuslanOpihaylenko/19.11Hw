@@ -1,6 +1,8 @@
 #include "String.h"
 #include<iostream>
 
+using namespace std;
+
 String::String()
 {
 	size = 0;
@@ -61,6 +63,70 @@ char* String::getStr()
 int String::getCounterObject()
 {
 	return counterObject;
+}
+
+int String::MyStrLen()
+{
+	delete[] str;
+	if (this->str != nullptr)
+	{
+		size = strlen(this->str);
+		str = new char[size + 1];
+		int i = 0;
+		while (this->str[i] != '\0')
+		{
+			str[i] = this->str[i];
+			i++;
+		}
+		str[size] = '\0';
+	}
+	else
+	{
+		this->str = nullptr;
+	}
+	return this->size;
+}
+
+int String::MyChr(char c)
+{
+	delete[] str;
+	if (this->str != nullptr)
+	{
+		for (int i = 0;i < size;i++)
+		{
+			if (c == str[i]) 
+			{
+				cout << "Looking element: " << str[i] << endl;
+			}
+			else 
+			{
+				cout << "-1" << endl;
+			}
+		}
+	}
+	else
+	{
+		this->str = nullptr;
+	}
+}
+
+void String::MyDelChr(char c)
+{
+	delete[] str;
+	if (this->str != nullptr)
+	{
+		for (int i = 0;i < size;i++)
+		{
+			if  (str[i] != c)
+			{
+				cout << str[i] << endl;
+			}
+		}
+	}
+	else
+	{
+		this->str = nullptr;
+	}
 }
 
 String::~String()
