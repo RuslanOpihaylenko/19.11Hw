@@ -67,7 +67,6 @@ int String::getCounterObject()
 
 int String::MyStrLen()
 {
-	delete[] str;
 	if (this->str != nullptr)
 	{
 		size = strlen(this->str);
